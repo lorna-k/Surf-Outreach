@@ -3,10 +3,10 @@ var app = angular.module('surfApp', ['ngRoute']);
 app.config(function($routeProvider) {
 	$routeProvider.when('/', {
 		controller: 'HomeCtrl',
-		templateUrl: '/#/templates/home.html'
+		templateUrl: './templates/home.html'
 	}).when('/surfkids', {
 		controller: 'SurfKidsCtrl',
-		templateUrl: '/#/templates/surfkids.html'
+		templateUrl: './templates/surfkids.html'
 	})
 });
 
